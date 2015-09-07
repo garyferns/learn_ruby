@@ -20,7 +20,7 @@ class TestSimonSays < MiniTest::Test
   end
 
   def test_shout_multiple_words
-    assert_equal "HELLO WORLD", shoult("hello world")
+    assert_equal "HELLO WORLD", shout("hello world")
   end
 
   def test_repeat
@@ -68,7 +68,7 @@ class TestSimonSays < MiniTest::Test
     assert_equal "Jaws", titleize("jaws")
   end
 
-  # capitalize every word
+  # # capitalize every word
   def test_titleize_title_case
     assert_equal "David Copperfield", titleize("david copperfield")
   end
